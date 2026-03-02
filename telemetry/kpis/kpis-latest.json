@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "generatedAt": "2026-03-02T16:15:13.789Z",
+  "generatedAt": "2026-03-02T16:30:14.508Z",
   "windowsDays": [
     7,
     30
   ],
   "source": {
     "eventsPath": "F:\\clawd\\_bucket\\workspace\\memory\\telemetry\\events.jsonl",
-    "cutoffIso": "2026-01-31T16:15:12.797Z"
+    "cutoffIso": "2026-01-31T16:30:13.522Z"
   },
   "meta": {
     "openaiProjectId": "proj_ETMpjCJ5MJRvfFyRK8oeiNx7",
@@ -30,36 +30,36 @@
     "activeIssueNumber": 70
   },
   "totals": {
-    "events": 134525,
-    "agentRuns": 11715,
-    "toolCalls": 34459,
-    "shadowRoute": 3536,
-    "routingSkipped": 3349,
+    "events": 134793,
+    "agentRuns": 11736,
+    "toolCalls": 34515,
+    "shadowRoute": 3541,
+    "routingSkipped": 3354,
     "routingFallback": 187,
     "flexEnqueue": 185,
     "flexDequeue": 53,
-    "modelUsage": 12278,
+    "modelUsage": 12304,
     "embeddingsUsage": 223,
     "completionsUsage": 601
   },
   "by": {
     "jobClass": {
-      "EMBEDDINGS_USAGE": 9093,
-      "COMPLETIONS_USAGE": 15771,
-      "AGENT_RUN": 11715,
-      "MODEL_USAGE": 12278,
-      "ACTIVE_TASK_SNAPSHOT": 12278,
-      "TASK_OVERRIDE_READ": 6541,
-      "TOOL_CALL": 34459,
-      "RETRIEVAL_CAPPED": 6592,
-      "HISTORY_CAPPED": 1254,
-      "ROUTING_SKIPPED": 3349,
-      "SHADOW_ROUTE": 3536,
-      "BLOB_DETECTED": 2283,
-      "TOOL_OUTPUT_TRIMMED": 1627,
+      "EMBEDDINGS_USAGE": 9105,
+      "COMPLETIONS_USAGE": 15795,
+      "AGENT_RUN": 11736,
+      "MODEL_USAGE": 12304,
+      "ACTIVE_TASK_SNAPSHOT": 12304,
+      "TASK_OVERRIDE_READ": 6562,
+      "TOOL_CALL": 34515,
+      "BLOB_DETECTED": 2289,
+      "RETRIEVAL_CAPPED": 6622,
+      "HISTORY_CAPPED": 1259,
+      "ROUTING_SKIPPED": 3354,
+      "SHADOW_ROUTE": 3541,
+      "GUARDRAIL": 2868,
+      "TOOL_OUTPUT_TRIMMED": 1629,
       "PROMPT_MESSAGE_TRIMMED": 2711,
       "ROUTING_FALLBACK": 187,
-      "GUARDRAIL": 2839,
       "PROMPT_DEDUPED": 323,
       "FLEX_ENQUEUE": 185,
       "MESSAGE_RECEIVED_NO_SESSIONKEY": 25,
@@ -73,17 +73,17 @@
       "MODEL_USAGE_EXTRACT_ERROR": 7
     },
     "provider": {
-      "openai": 39625,
-      "whatsapp": 21441,
-      "clawdbot": 522,
+      "openai": 39682,
+      "whatsapp": 21495,
+      "clawdbot": 527,
       "webchat": 584,
       "heartbeat": 60
     },
     "tool": {
-      "exec": 18482,
+      "exec": 18498,
+      "browser": 7591,
       "message": 396,
       "write": 632,
-      "browser": 7551,
       "image": 3,
       "web_search": 55,
       "web_fetch": 105,
@@ -106,11 +106,11 @@
     "model": {
       "openai/text-embedding-3-small": 223,
       "openai/gpt-5-mini-2025-08-07": 26,
-      "openai/gpt-5.2-2025-12-11": 255,
       "openai/gpt-4o-mini-2024-07-18": 314,
-      "openai/gpt-4o-mini": 7331,
-      "openai/delivery-mirror": 522,
-      "openai/gpt-5.2": 4323,
+      "openai/gpt-5.2-2025-12-11": 255,
+      "openai/gpt-4o-mini": 7347,
+      "openai/delivery-mirror": 527,
+      "openai/gpt-5.2": 4328,
       "openai/gpt-5-mini": 91,
       "openai/unknown": 4,
       "openai/gpt-4o-2024-08-06": 2,
@@ -118,22 +118,22 @@
     }
   },
   "tokens": {
-    "input": 261895924,
-    "uncachedInput": 101929307,
-    "cachedInput": 161459097,
-    "output": 1622879,
-    "total": 263518803,
-    "cacheRead": 161459097,
+    "input": 262283895,
+    "uncachedInput": 102115550,
+    "cachedInput": 161660825,
+    "output": 1625214,
+    "total": 263909109,
+    "cacheRead": 161660825,
     "cacheWrite": 0
   },
   "tokensByModel": {
     "openai/gpt-4o-mini": {
-      "input": 92475297,
-      "uncachedInput": 32431487,
-      "cachedInput": 60053282,
-      "output": 455868,
-      "total": 92931165,
-      "cacheRead": 60053282,
+      "input": 92628998,
+      "uncachedInput": 32462948,
+      "cachedInput": 60175522,
+      "output": 456715,
+      "total": 93085713,
+      "cacheRead": 60175522,
       "cacheWrite": 0
     },
     "openai/delivery-mirror": {
@@ -146,12 +146,12 @@
       "cacheWrite": 0
     },
     "openai/gpt-5.2": {
-      "input": 162097164,
-      "uncachedInput": 62512277,
-      "cachedInput": 101067895,
-      "output": 1113558,
-      "total": 163210722,
-      "cacheRead": 101067895,
+      "input": 162331434,
+      "uncachedInput": 62667059,
+      "cachedInput": 101147383,
+      "output": 1115046,
+      "total": 163446480,
+      "cacheRead": 101147383,
       "cacheWrite": 0
     },
     "openai/gpt-5-mini": {
@@ -176,69 +176,69 @@
   "tokensWindowsByModel": {
     "today": {
       "openai/gpt-4o-mini": {
-        "input": 6464793,
-        "uncachedInput": 975769,
-        "cachedInput": 5489024,
-        "output": 33122,
-        "total": 6497915,
-        "cacheRead": 5489024,
+        "input": 6618494,
+        "uncachedInput": 1007230,
+        "cachedInput": 5611264,
+        "output": 33969,
+        "total": 6652463,
+        "cacheRead": 5611264,
         "cacheWrite": 0
       },
       "openai/gpt-5.2": {
-        "input": 3256968,
-        "uncachedInput": 908296,
-        "cachedInput": 2348672,
-        "output": 40961,
-        "total": 3297929,
-        "cacheRead": 2348672,
+        "input": 3491238,
+        "uncachedInput": 1063078,
+        "cachedInput": 2428160,
+        "output": 42449,
+        "total": 3533687,
+        "cacheRead": 2428160,
         "cacheWrite": 0
       }
     },
     "7d": {
       "openai/gpt-4o-mini": {
-        "input": 49026083,
-        "uncachedInput": 7907491,
-        "cachedInput": 41118592,
-        "output": 248790,
-        "total": 49274873,
-        "cacheRead": 41118592,
+        "input": 49153987,
+        "uncachedInput": 7923395,
+        "cachedInput": 41230592,
+        "output": 249562,
+        "total": 49403549,
+        "cacheRead": 41230592,
         "cacheWrite": 0
       },
       "openai/gpt-5.2": {
-        "input": 36051478,
-        "uncachedInput": 11741078,
-        "cachedInput": 24310400,
-        "output": 351654,
-        "total": 36403132,
-        "cacheRead": 24310400,
+        "input": 36285748,
+        "uncachedInput": 11895860,
+        "cachedInput": 24389888,
+        "output": 353142,
+        "total": 36638890,
+        "cacheRead": 24389888,
         "cacheWrite": 0
       }
     },
     "30d": {
       "openai/gpt-4o-mini": {
-        "input": 92475297,
-        "uncachedInput": 32431487,
-        "cachedInput": 60053282,
-        "output": 455868,
-        "total": 92931165,
-        "cacheRead": 60053282,
+        "input": 92628998,
+        "uncachedInput": 32462948,
+        "cachedInput": 60175522,
+        "output": 456715,
+        "total": 93085713,
+        "cacheRead": 60175522,
         "cacheWrite": 0
       },
       "openai/gpt-5.2": {
-        "input": 162097164,
-        "uncachedInput": 62512277,
-        "cachedInput": 101067895,
-        "output": 1113558,
-        "total": 163210722,
-        "cacheRead": 101067895,
+        "input": 162331434,
+        "uncachedInput": 62667059,
+        "cachedInput": 101147383,
+        "output": 1115046,
+        "total": 163446480,
+        "cacheRead": 101147383,
         "cacheWrite": 0
       }
     }
   },
   "cost": {
     "estimatedUsdByModel": {
-      "openai/gpt-4o-mini": 9.642239999999987,
-      "openai/gpt-5.2": 142.67317837499954
+      "openai/gpt-4o-mini": 9.656635349999988,
+      "openai/gpt-5.2": 142.97878927499954
     },
     "estimatedUsdByTask": {
       "61": 17.580802074999973,
@@ -246,34 +246,34 @@
       "66": 1.3366318499999992,
       "67": 52.88434929999988,
       "68": 0.24548115,
-      "70": 37.686865699999956
+      "70": 38.00687194999996
     },
-    "estimatedUsdTotal": 152.31541837499952,
+    "estimatedUsdTotal": 152.63542462499953,
     "windows": {
       "today": {
         "usdByModel": {
-          "openai/gpt-4o-mini": 3.63999155873985,
-          "openai/gpt-5.2": 16.212236647260134
+          "openai/gpt-4o-mini": 3.604648409101982,
+          "openai/gpt-5.2": 17.524497465897998
         },
         "usdByTask": {
-          "70": 19.852228206
+          "70": 21.129145874999995
         },
-        "usdTotal": 19.852228206
+        "usdTotal": 21.129145874999995
       },
       "7d": {
         "usdByModel": {
-          "openai/gpt-4o-mini": 4.419292049999994,
-          "openai/gpt-5.2": 29.724362500000026
+          "openai/gpt-4o-mini": 4.430540849999995,
+          "openai/gpt-5.2": 30.02997340000003
         },
         "usdByTask": {
-          "70": 34.14365454999982
+          "70": 34.46051424999983
         },
-        "usdTotal": 34.14365454999982
+        "usdTotal": 34.46051424999983
       },
       "30d": {
         "usdByModel": {
-          "openai/gpt-4o-mini": 9.642239999999987,
-          "openai/gpt-5.2": 142.67317837499954
+          "openai/gpt-4o-mini": 9.656635349999988,
+          "openai/gpt-5.2": 142.97878927499954
         },
         "usdByTask": {
           "61": 17.580802074999973,
@@ -281,44 +281,44 @@
           "66": 1.3366318499999992,
           "67": 52.88434929999988,
           "68": 0.24548115,
-          "70": 37.686865699999956
+          "70": 38.00687194999996
         },
-        "usdTotal": 152.315418375
+        "usdTotal": 152.635424625
       }
     },
     "windowsByCategory": {
       "today": {
         "usdByCategory": {
-          "general": 16.212236647260134,
-          "cronJobs": 3.63999155873985,
+          "general": 17.524497465897998,
+          "cronJobs": 3.604648409101982,
           "plugins": 0,
           "other": 0
         },
         "usdByCategoryByModel": {
           "general": {
-            "openai/gpt-5.2": 2.5739895999999995
+            "openai/gpt-5.2": 2.879600499999999
           },
           "cronJobs": {
-            "openai/gpt-4o-mini": 0.5779153499999997
+            "openai/gpt-4o-mini": 0.5923107
           },
           "plugins": {},
           "other": {}
         },
-        "usdTotal": 19.852228205999985
+        "usdTotal": 21.12914587499998
       },
       "7d": {
         "usdByCategory": {
-          "general": 29.724362500000026,
-          "cronJobs": 4.419292049999994,
+          "general": 30.02997340000003,
+          "cronJobs": 4.430540849999995,
           "plugins": 0,
           "other": 0
         },
         "usdByCategoryByModel": {
           "general": {
-            "openai/gpt-5.2": 29.724362500000026
+            "openai/gpt-5.2": 30.02997340000003
           },
           "cronJobs": {
-            "openai/gpt-4o-mini": 4.419292049999994
+            "openai/gpt-4o-mini": 4.430540849999995
           },
           "plugins": {},
           "other": {}
@@ -326,18 +326,18 @@
       },
       "30d": {
         "usdByCategory": {
-          "general": 142.58742839999988,
-          "cronJobs": 9.727989974999975,
+          "general": 142.89303929999988,
+          "cronJobs": 9.742385324999978,
           "plugins": 0,
           "other": 0
         },
         "usdByCategoryByModel": {
           "general": {
-            "openai/gpt-5.2": 139.7336839499999,
+            "openai/gpt-5.2": 140.0392948499999,
             "openai/gpt-4o-mini": 2.8537444499999993
           },
           "cronJobs": {
-            "openai/gpt-4o-mini": 6.788495549999987,
+            "openai/gpt-4o-mini": 6.802890899999989,
             "openai/gpt-5.2": 2.9394944250000017
           },
           "plugins": {},
@@ -348,41 +348,41 @@
     "windowsBreakdown": {
       "today": {
         "tokens": {
-          "input": 9721761,
-          "uncachedInput": 1884065,
-          "cachedInput": 7837696,
-          "output": 74083
+          "input": 10109732,
+          "uncachedInput": 2070308,
+          "cachedInput": 8039424,
+          "output": 76418
         },
         "usd": {
-          "uncachedInput": 10.933436429672767,
-          "cachedInput": 5.181728900993058,
-          "output": 3.7370628753341646
+          "uncachedInput": 12.241287790520738,
+          "cachedInput": 5.147152631181067,
+          "output": 3.7407054532981596
         }
       },
       "7d": {
         "tokens": {
-          "input": 85077561,
-          "uncachedInput": 19648569,
-          "cachedInput": 65428992,
-          "output": 600444
+          "input": 85439735,
+          "uncachedInput": 19819255,
+          "cachedInput": 65620480,
+          "output": 602704
         },
         "usd": {
-          "uncachedInput": 21.73301014999953,
-          "cachedInput": 7.338214399999753,
-          "output": 5.07242999999999
+          "uncachedInput": 22.00626424999953,
+          "cachedInput": 7.36052479999975,
+          "output": 5.093725199999989
         }
       },
       "30d": {
         "tokens": {
-          "input": 254572461,
-          "uncachedInput": 94943764,
-          "cachedInput": 161121177,
-          "output": 1569426
+          "input": 254960432,
+          "uncachedInput": 95130007,
+          "cachedInput": 161322905,
+          "output": 1571761
         },
         "usd": {
-          "uncachedInput": 114.26120779999937,
-          "cachedInput": 22.190877775000164,
-          "output": 15.863332799999805
+          "uncachedInput": 114.53679544999939,
+          "cachedInput": 22.213956175000167,
+          "output": 15.884672999999802
         }
       }
     },
@@ -428,138 +428,138 @@
       "windows": {
         "today": {
           "usdByModel": {
-            "openai/text-embedding-3-small": 0.0023463360000000005,
-            "openai/gpt-5.2-2025-12-11": 18.51906294,
-            "openai/gpt-4o-mini-2024-07-18": 1.33081893
+            "openai/text-embedding-3-small": 0.0023970600000000003,
+            "openai/gpt-4o-mini-2024-07-18": 1.360143495,
+            "openai/gpt-5.2-2025-12-11": 19.76660532
           },
-          "usdTotal": 19.852228206
+          "usdTotal": 21.129145874999995
         },
         "7d": {
           "usdByModel": {
-            "openai/text-embedding-3-small": 0.017818182000000012,
-            "openai/gpt-5.2-2025-12-11": 192.69283319999997,
-            "openai/gpt-4o-mini-2024-07-18": 10.106591805000004
+            "openai/text-embedding-3-small": 0.01786890600000001,
+            "openai/gpt-4o-mini-2024-07-18": 10.135916370000004,
+            "openai/gpt-5.2-2025-12-11": 193.94037558
           },
-          "usdTotal": 202.8172431870001
+          "usdTotal": 204.0941608560001
         },
         "30d": {
           "usdByModel": {
-            "openai/text-embedding-3-small": 0.02547939600000002,
-            "openai/gpt-5.2-2025-12-11": 636.6759808500002,
-            "openai/gpt-4o-mini-2024-07-18": 19.960815825000008
+            "openai/text-embedding-3-small": 0.02553012000000002,
+            "openai/gpt-4o-mini-2024-07-18": 19.990140390000008,
+            "openai/gpt-5.2-2025-12-11": 637.9235232300002
           },
-          "usdTotal": 656.662276071
+          "usdTotal": 657.93919374
         }
       },
       "tokensWindowsByModel": {
         "today": {
           "openai/text-embedding-3-small": {
-            "input": 130352,
-            "uncachedInput": 130352,
+            "input": 133170,
+            "uncachedInput": 133170,
             "cachedInput": 0,
             "output": 0,
-            "total": 130352
-          },
-          "openai/gpt-5.2-2025-12-11": {
-            "input": 48287572,
-            "uncachedInput": 5771860,
-            "cachedInput": 42515712,
-            "output": 216838,
-            "total": 48504410
+            "total": 133170
           },
           "openai/gpt-4o-mini-2024-07-18": {
-            "input": 13414798,
-            "uncachedInput": 5697806,
-            "cachedInput": 7716992,
-            "output": 75404,
-            "total": 13490202
+            "input": 13691345,
+            "uncachedInput": 5843025,
+            "cachedInput": 7848320,
+            "output": 76988,
+            "total": 13768333
+          },
+          "openai/gpt-5.2-2025-12-11": {
+            "input": 51309784,
+            "uncachedInput": 6162648,
+            "cachedInput": 45147136,
+            "output": 234108,
+            "total": 51543892
           }
         },
         "7d": {
           "openai/text-embedding-3-small": {
-            "input": 989899,
-            "uncachedInput": 989899,
+            "input": 992717,
+            "uncachedInput": 992717,
             "cachedInput": 0,
             "output": 0,
-            "total": 989899
-          },
-          "openai/gpt-5.2-2025-12-11": {
-            "input": 513852640,
-            "uncachedInput": 63976160,
-            "cachedInput": 449876480,
-            "output": 1672606,
-            "total": 515525246
+            "total": 992717
           },
           "openai/gpt-4o-mini-2024-07-18": {
-            "input": 102479299,
-            "uncachedInput": 42777795,
-            "cachedInput": 59701504,
-            "output": 558774,
-            "total": 103038073
+            "input": 102755846,
+            "uncachedInput": 42923014,
+            "cachedInput": 59832832,
+            "output": 560358,
+            "total": 103316204
+          },
+          "openai/gpt-5.2-2025-12-11": {
+            "input": 516874852,
+            "uncachedInput": 64366948,
+            "cachedInput": 452507904,
+            "output": 1689876,
+            "total": 518564728
           }
         },
         "30d": {
           "openai/text-embedding-3-small": {
-            "input": 1415522,
-            "uncachedInput": 1415522,
+            "input": 1418340,
+            "uncachedInput": 1418340,
             "cachedInput": 0,
             "output": 0,
-            "total": 1415522
-          },
-          "openai/gpt-5.2-2025-12-11": {
-            "input": 1411075342,
-            "uncachedInput": 247621262,
-            "cachedInput": 1163454080,
-            "output": 5034006,
-            "total": 1416109348
+            "total": 1418340
           },
           "openai/gpt-4o-mini-2024-07-18": {
-            "input": 191490191,
-            "uncachedInput": 95893007,
-            "cachedInput": 95597184,
-            "output": 1041574,
-            "total": 192531765
+            "input": 191766738,
+            "uncachedInput": 96038226,
+            "cachedInput": 95728512,
+            "output": 1043158,
+            "total": 192809896
+          },
+          "openai/gpt-5.2-2025-12-11": {
+            "input": 1414097554,
+            "uncachedInput": 248012050,
+            "cachedInput": 1166085504,
+            "output": 5051276,
+            "total": 1419148830
           }
         }
       },
       "windowsBreakdown": {
         "today": {
           "tokens": {
-            "input": 61832722,
-            "uncachedInput": 11600018,
-            "cachedInput": 50232704,
-            "output": 292242
+            "input": 65134299,
+            "uncachedInput": 12138843,
+            "cachedInput": 52995456,
+            "output": 311096
           },
           "usd": {
-            "uncachedInput": 9.862229646000001,
-            "cachedInput": 7.2171216,
-            "output": 2.77287696
+            "uncachedInput": 10.497376035,
+            "cachedInput": 7.64043552,
+            "output": 2.99133432
           }
         },
         "7d": {
           "tokens": {
-            "input": 617321838,
-            "uncachedInput": 107743854,
-            "cachedInput": 509577984,
-            "output": 2231380
+            "input": 620623415,
+            "uncachedInput": 108282679,
+            "cachedInput": 512340736,
+            "output": 2250234
           },
           "usd": {
-            "uncachedInput": 106.55527250700001,
-            "cachedInput": 74.88539712000001,
-            "output": 21.376573559999983
+            "uncachedInput": 107.19041889600001,
+            "cachedInput": 75.30871104,
+            "output": 21.595030919999985
           }
         },
         "30d": {
           "tokens": {
-            "input": 1603981055,
-            "uncachedInput": 344929791,
-            "cachedInput": 1259051264,
-            "output": 6075580
+            "input": 1607282632,
+            "uncachedInput": 345468616,
+            "cachedInput": 1261814016,
+            "output": 6094434
           },
           "usd": {
-            "uncachedInput": 402.9745229910003,
-            "cachedInput": 189.69682751999997,
-            "output": 63.990925560000036
+            "uncachedInput": 403.60966938000024,
+            "cachedInput": 190.12014143999997,
+            "output": 64.20938292000004
           }
         }
       }
@@ -570,25 +570,25 @@
       },
       "windows": {
         "today": {
-          "usdTotal": 19.852228206,
+          "usdTotal": 21.129145874999995,
           "source": "usageApi",
-          "telemetryUsdTotal": 3.151904950000002,
-          "usageApiUsdTotal": 19.852228206,
-          "coverage": 0.15876832148480904
+          "telemetryUsdTotal": 3.4719112000000014,
+          "usageApiUsdTotal": 21.129145874999995,
+          "coverage": 0.16431857778538822
         },
         "7d": {
-          "usdTotal": 202.8172431870001,
+          "usdTotal": 204.0941608560001,
           "source": "usageApi",
-          "telemetryUsdTotal": 34.14365454999982,
-          "usageApiUsdTotal": 202.8172431870001,
-          "coverage": 0.16834690193732166
+          "telemetryUsdTotal": 34.46051424999983,
+          "usageApiUsdTotal": 204.0941608560001,
+          "coverage": 0.16884615466443287
         },
         "30d": {
-          "usdTotal": 656.662276071,
+          "usdTotal": 657.93919374,
           "source": "usageApi",
-          "telemetryUsdTotal": 152.315418375,
-          "usageApiUsdTotal": 656.662276071,
-          "coverage": 0.231953964656455
+          "telemetryUsdTotal": 152.635424625,
+          "usageApiUsdTotal": 657.93919374,
+          "coverage": 0.23199016881386378
         }
       }
     },
@@ -596,23 +596,23 @@
     "sinceSwitch": {
       "switchIso": "2026-02-28T23:44:32.393Z",
       "usdByModel": {
-        "openai/gpt-4o-mini": 1.9987850249999999,
-        "openai/gpt-5.2": 123.09750792499995
+        "openai/gpt-4o-mini": 2.022851325,
+        "openai/gpt-5.2": 125.46681594999994
       },
       "usdByTask": {
-        "70": 125.09629295000006
+        "70": 127.48966727500004
       },
-      "usdTotal": 125.09629295000006,
+      "usdTotal": 127.48966727500004,
       "tokens": {
-        "input": 103331916,
-        "uncachedInput": 56791978,
-        "cachedInput": 46539938,
-        "output": 2846171
+        "input": 105129650,
+        "uncachedInput": 57676431,
+        "cachedInput": 47453219,
+        "output": 2914232
       },
       "usd": {
-        "uncachedInput": 79.5897903,
-        "cachedInput": 8.09960544999993,
-        "output": 37.4068972
+        "uncachedInput": 80.89476384999998,
+        "cachedInput": 8.259124824999931,
+        "output": 38.3357786
       }
     },
     "pricing": {
@@ -622,24 +622,24 @@
     "diagnostics": {
       "cacheRead": {
         "any": {
-          "modelUsageEvents": 12278,
-          "hasField": 11267,
+          "modelUsageEvents": 12304,
+          "hasField": 11293,
           "missingField": 1011,
-          "zeroValue": 2500,
+          "zeroValue": 2509,
           "inputTokensWhereMissing": 6014567
         },
         "today": {
-          "modelUsageEvents": 823,
-          "hasField": 823,
+          "modelUsageEvents": 849,
+          "hasField": 849,
           "missingField": 0,
-          "zeroValue": 167,
+          "zeroValue": 176,
           "inputTokensWhereMissing": 0
         },
         "7d": {
-          "modelUsageEvents": 6547,
-          "hasField": 6547,
+          "modelUsageEvents": 6571,
+          "hasField": 6571,
           "missingField": 0,
-          "zeroValue": 1331,
+          "zeroValue": 1339,
           "inputTokensWhereMissing": 0
         }
       }
@@ -647,8 +647,8 @@
   },
   "latency": {
     "agentRunMs": {
-      "n": 11715,
-      "avg": 27285,
+      "n": 11736,
+      "avg": 27298,
       "p95Approx": 52926
     }
   },
